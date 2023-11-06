@@ -16,7 +16,7 @@ download_url = (
 )
 
 setup(
-    name='django-file-nunckak',
+    name='git+https://github.com/HazemBZ/django-file-nunckak.git',
     packages=['chunked_upload', 'chunked_upload.migrations', 'chunked_upload.management'],
     version=version,
     description=('Upload large files to Django in multiple chunks, with the '
